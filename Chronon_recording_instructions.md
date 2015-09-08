@@ -17,9 +17,14 @@ Edit recordingserver-<version>/controllers/linux/controller/bin/config.propertie
 
 	`servermode = true`
 
-  `name = JetUML`
+	`# Replace the name here with a unique name for your app`
+	
+	`name = JetUML`
 
-6. One your terminal, run:
+	`autostartwithconfig=JetUML_cfg`
+
+6. On your terminal, run:
+
  `java -javaagent:<path_to_recorder.jar> -agentpath:<path_to_native_agentlib> -noverify -jar <path_to_JetUML.jar>`
 
   where `<path_to_recorder.jar>` is under recordingserver-<version>/recorder/, and 
@@ -37,8 +42,6 @@ Edit recordingserver-<version>/controllers/linux/controller/bin/config.propertie
 
 11. Click “Save”.
 
-12. Click the “Start recording” icon.
-
-13. Now you can start your assignment using the JetUML GUI that is already started in step 6.
+12. Now you can start your assignment using the JetUML GUI that is already started in step 6.
 
 Enjoy and good luck with your assignment!
