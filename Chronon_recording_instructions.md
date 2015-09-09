@@ -42,6 +42,23 @@ Edit recordingserver-<version>/controllers/linux/controller/bin/config.propertie
 
 11. Click “Save”.
 
-12. Now you can start your assignment using the JetUML GUI that is already started in step 6.
+12. Now you can start your assignment using the JetUML GUI that is already started in step 6. Enjoy and good luck with your assignment!
 
-Enjoy and good luck with your assignment!
+13. After you finished your assignment, go to recordingserver-<version>/controllers/linux/controller/data/JetUML/ and run on command line:
+
+	`tar -zcvf <your_machine_name>.tar.gz recording/`
+	
+	where your_machine_name is the one you used in 3.1.
+
+15. Upload your tar ball using sftp:
+
+	`sftp cs6300@alpaca.cc.gt.atl.ga.us`
+
+	(the password is given separately).
+	
+	`cd recording`
+	
+	`put <your_machine_name>.tar.gz`
+	
+	`exit`
+
