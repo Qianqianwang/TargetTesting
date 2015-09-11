@@ -10,8 +10,7 @@
 
   `unzip recordingserver-3.70.0.200.zip -d recordingserver-3.70.0.200`
 
-3. Download [config.sh](https://github.com/Qianqianwang/TargetTesting/blob/master/config.sh) and 
-[upload.sh](https://github.com/Qianqianwang/TargetTesting/blob/master/upload.sh) and put them under ~/Documents/recording.
+3. Download [config.sh](https://github.com/Qianqianwang/TargetTesting/blob/master/config.sh) and put it under ~/Documents/recording.
 
 4. Run configuration and start JetUML.
 
