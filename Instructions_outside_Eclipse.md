@@ -1,4 +1,4 @@
-1. Open a terminal, cd to the folder that you want Chronon recorder server to be installed. We refer it as <dir>.
+1. Open a terminal, cd to the folder that you want Chronon recorder server to be installed. We refer it as \<dir\>.
 
 2. Download Chronon recording server and unpack it:
 
@@ -7,7 +7,7 @@
   `unzip recordingserver-3.70.0.200.zip -d recordingserver-3.70.0.200`
 
 3. Download [config.sh](https://github.com/Qianqianwang/TargetTesting/blob/master/config.sh) and 
-[upload.sh](https://github.com/Qianqianwang/TargetTesting/blob/master/upload.sh) and put them under <dir>.
+[upload.sh](https://github.com/Qianqianwang/TargetTesting/blob/master/upload.sh) and put them under \<dir\>.
 
 4. Run configuration and start JetUML.
 
