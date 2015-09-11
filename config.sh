@@ -36,5 +36,5 @@ echo "include = ca.mcgill.cs.stg.jetuml.**" >> JetUML_cfg.config
 cd /home/cs6300/Documents/recording/recordingserver-3.70.0.200/recorder
 printf '%sservermode = true\nname=JetUML\nautostartwithconfig=JetUML_cfg' > chrononcfg.txt
 
-cd /home/cs6300/recording/Documents/
+cd /home/cs6300/Documents/recording
 java -javaagent:/home/cs6300/Documents/recording/recordingserver-3.70.0.200/recorder/recorder-3.70.0.200.jar -agentpath:/home/cs6300/Documents/recording/recordingserver-3.70.0.200/recorder/librecorderagent64-3.0.7.so -noverify -jar $1
