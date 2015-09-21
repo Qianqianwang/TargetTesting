@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR="/home/cs6300/Documents/recording/recordingserver-3.70.0.200"
+DIR="/home/ubuntu/Documents/recording/recordingserver-3.70.0.200"
 cd ${DIR}/controllers/linux/controller/bin
 
 #config the machine name and the server address
@@ -37,5 +37,5 @@ echo "include = ca.mcgill.cs.stg.jetuml.**" >> JetUML_cfg.config
 cd ${DIR}/recorder
 printf '%sservermode = true\nname=JetUML\nautostartwithconfig=JetUML_cfg' > chrononcfg.txt
 
-cd /home/cs6300/Documents/recording
+cd /home/ubuntu/Documents/recording
 java -javaagent:${DIR}/recorder/recorder-3.70.0.200.jar -agentpath:${DIR}/recorder/librecorderagent64-3.0.7.so -noverify -jar $1
