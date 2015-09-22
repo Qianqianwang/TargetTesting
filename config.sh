@@ -1,6 +1,7 @@
 #!/bin/bash
 
-DIR="/home/ubuntu/Documents/recording/recordingserver-3.70.0.200"
+BASEDIR="/home/ubuntu"
+DIR="${BASEDIR}/Documents/recording/recordingserver-3.70.0.200"
 cd ${DIR}/controllers/linux/controller/bin
 
 #config the machine name and the server address
