@@ -26,10 +26,10 @@ Before doing the assignment, please make sure Java is installed on the VM. If no
   wget http://cs.mcgill.ca/~martin/jetuml/jetuml-0.7.jar
   ```
 
-3. Download config.sh and make sure it is under ~/Documents/recording.
+3. Download config_localserver.sh and make sure it is under ~/Documents/recording.
 
   ```
-  wget https://github.com/Qianqianwang/TargetTesting/blob/master/config.sh
+  wget https://github.com/Qianqianwang/TargetTesting/blob/master/config_localserver.sh
   ```
 
 4. Start the recording server:
