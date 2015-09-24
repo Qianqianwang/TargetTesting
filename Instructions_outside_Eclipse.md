@@ -1,3 +1,7 @@
+Before doing the assignment, please make sure Java is installed on the VM. If not, please use the following command to install it.
+
+`sudo apt-get install openjdk-7-jdk`
+
 1. Open a terminal, under ~/Documents, create a folder named recording
   
   `mkdir recording`
