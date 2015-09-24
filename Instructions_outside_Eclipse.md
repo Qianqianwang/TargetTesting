@@ -9,6 +9,10 @@
   `wget http://www.chrononsystems.com/downloads/recordingserver-3.70.0.200.zip`
 
   `unzip recordingserver-3.70.0.200.zip -d recordingserver-3.70.0.200`
+  
+  Download JetUML.
+  
+  `wget http://cs.mcgill.ca/~martin/jetuml/jetuml-0.7.jar`
 
 3. Download [config.sh](https://github.com/Qianqianwang/TargetTesting/blob/master/config.sh) and put it under ~/Documents/recording.
 
