@@ -6,7 +6,7 @@
 
 2. Download Chronon recording server and unpack it:
 
-  `wget http://www.chrononsystem.com/downloads/recordingserver-3.70.0.200.zip`
+  `wget http://www.chrononsystems.com/downloads/recordingserver-3.70.0.200.zip`
 
   `unzip recordingserver-3.70.0.200.zip -d recordingserver-3.70.0.200`
 
