@@ -1,5 +1,7 @@
 1. Open a terminal, under ~/Documents, create a folder named recording
   
+  `cd ~/Documents`
+
   `mkdir recording`
 
   `cd recording`
